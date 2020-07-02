@@ -72,12 +72,22 @@
              <artifactId>flyway-core</artifactId>
              <version>6.4.4</version>
         </dependency>
+		<scm>
+        <connection>scm:git:https://vivekanandareddy945/ForexPay.git</connection>
+        <url>https://github.com/vivekanandareddy945/ForexPay.git</url>
+        <developerConnection>scm:git:https://vivekanandareddy945:Vinayaka_1234_321@github.com/vivekanandareddy945/ForexPay.git</developerConnection>
+        <tag>HEAD</tag>
+      </scm>
 	</dependencies>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://13.234.226.148:8081/nexus/content/repositories/snapshots</url>
+			<url>http://13.232.95.77:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
+		<repository>
+            <id>nexus</id>
+            <url>http://13.232.95.77:8081/nexus/content/repositories/releases</url>
+</repository>
 	</distributionManagement>
 
 	<build>
@@ -123,6 +133,14 @@
                           <schema>forexpay</schema>
                     </schemas>
                   </configuration>   
+            </plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-release-plugin</artifactId>
+                 <version>3.0.0-M1</version>
+                 <configuration>
+                        <tagNameFormat>v@{project.version}</tagNameFormat>
+                 </configuration>
             </plugin>
 		</plugins>
 	</build>
