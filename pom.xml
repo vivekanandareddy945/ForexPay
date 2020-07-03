@@ -14,9 +14,9 @@
 	<description>Money Transfer project for Spring Boot</description>
 	
 	      <scm>
-	<connection>scm:https://github.com/raja990832/ForexPay.git</connection>
+	<connection>scm:https://github.com/vivekanandareddy945/ForexPay.git</connection>
 	<url>https://github.com/vivekanandareddy945/ForexPay.git</url>
-	<developerConnection>scm:git:https://github.com/raja990832/Forexpay.git</developerConnection>
+	<developerConnection>scm:git:https://github.com/vivekanandareddy945/ForexPay.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
