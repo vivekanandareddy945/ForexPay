@@ -129,8 +129,8 @@
                     <version>6.4.4</version>
                     <configuration>
                     <baselineOnMigrate>true</baselineOnMigrate>
-                     <url>jdbc:mysql://13.232.118.111:3306</url>
-                     <user>inguser3</user>
+                     <url>jdbc:mysql://35.154.132.78:3306</url>
+                     <user>inguser5</user>
                       <password>H@ckath0n</password>
                           <schemas>
                           <schema>forexpay</schema>
