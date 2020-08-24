@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
-	<version>0.0.19-SNAPSHOT</version>
+	<version>0.0.19</version>
 	<name>ForexPay</name>
 	<description>Money Transfer project for Spring Boot</description>
 	
@@ -17,7 +17,7 @@
 	<connection>scm:https://github.com/vivekanandareddy945/ForexPay.git</connection>
 	<url>https://github.com/vivekanandareddy945/ForexPay.git</url>
 	<developerConnection>scm:git:https://vivekanandareddy945:Vinayaka_1234_321@github.com/vivekanandareddy945/ForexPay.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>0.0.19</tag>
   </scm>
 
 	<properties>
